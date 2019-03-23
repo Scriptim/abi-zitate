@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTH:%{HTTP:Authorization},L]
+
+<Files "config.ini">
+  Require all denied
+</Files>
+
