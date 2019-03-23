@@ -1,0 +1,15 @@
+.container {
+  padding: 1em;
+}
+
+.card-wrapper>.card {
+  height: 100%;
+}
+
+.card:target {
+  background: #f1f1fc;
+}
+
+.card-body {
+  white-space: pre-wrap;
+}
